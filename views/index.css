@@ -1,0 +1,51 @@
+
+header{
+    text-align: center;
+}
+
+header > h1{
+    color: blueviolet;
+}
+
+.calendar-container{
+    width: 100%;
+ 
+
+}
+
+
+
+.month-container{
+    width: 100%;
+    height: 100%;
+}
+
+.day-of-week{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+   
+    grid-gap: 1em;
+}
+
+.day-of-week > span{
+    height: 14vh;
+    text-align: center;
+}
+
+.days{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+   
+    grid-gap: 1em;
+}
+
+.date{
+   height: 14vh;
+    text-align: center;
+ 
+}
+
+
+
+
+
